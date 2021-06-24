@@ -1,0 +1,139 @@
+/* Sidenav */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(135, 182, 25);
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav-header {
+    padding: 8px 8px 8px 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    padding-left: 40px;
+    font-size: 21px;
+}
+
+.sidenav a.active {
+    color: #f1f1f1;
+}
+
+/* End of sidenav */
+
+/* Page content */
+.main {
+    margin-left: 100px;
+}
+
+.konten {
+    height: auto;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.horizontal-center {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    background-color: hsl(204, 74%, 62%);
+    /* Green */
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.logout-button:hover {
+    background-color: hsl(204, 56%, 57%);
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.container-fluid .row {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: white !important;
+}
+
+thead {
+    background-color: rgb(235, 235, 235);
+}
+
+form.search input[name=search] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #ffffff;
+    border-radius: 45px;
+}
+
+form.search input:focus {
+    outline-width: 0;
+    border-color: rgb(0, 110, 255);
+}
+
+form.search button {
+    float: left;
+    width: 60px;
+    padding: 10px;
+    padding-left: 0;
+    background: #2195f300;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: none;
+    transition: 0.3s;
+}
