@@ -1,9 +1,14 @@
 # Dy.id Jaya Sementara
 Project akhir mata kuliah SMBD dengan tema Toko Barang-barang Elektronik
+
 Nama kelompok 
+
 Kelas    : SMBD B
+
 Prodi    : Sistem Informasi
+
 Semester : 4
+
 Univ     : Universitas Trunojoyo Madura
 
 1. David Nasrulloh (190441100060)
